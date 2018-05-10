@@ -81,21 +81,21 @@ formatter.match({
   "location": "SmokeTest.the_user_is_in_pseg_application()"
 });
 formatter.result({
-  "duration": 6479718629,
+  "duration": 7161323723,
   "status": "passed"
 });
 formatter.match({
   "location": "SmokeTest.the_user_enters_login_information()"
 });
 formatter.result({
-  "duration": 5000554216,
+  "duration": 5000699480,
   "status": "passed"
 });
 formatter.match({
   "location": "SmokeTest.the_user_should_be_logged_in()"
 });
 formatter.result({
-  "duration": 38285089,
+  "duration": 64888229,
   "status": "passed"
 });
 });

@@ -13,6 +13,7 @@ public class SmokeTest {
 	@Given("^the user is in pseg application$")
 	public void the_user_is_in_pseg_application() throws Throwable {
 		driver.get("https://pseg.com");
+		driver.manage().window().maximize();
 	}
 
 	@When("^the user enters login information$")

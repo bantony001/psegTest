@@ -5,12 +5,12 @@
       {
         "name": "the user should be logged in",
         "aggregatedDurations": {
-          "average": 0.038285089,
-          "median": 0.038285089
+          "average": 0.064888229,
+          "median": 0.064888229
         },
         "durations": [
           {
-            "duration": 0.038285089,
+            "duration": 0.064888229,
             "location": "pseg.feature:6"
           }
         ]
@@ -23,12 +23,12 @@
       {
         "name": "the user is in pseg application",
         "aggregatedDurations": {
-          "average": 6.479718629,
-          "median": 6.479718629
+          "average": 7.161323723,
+          "median": 7.161323723
         },
         "durations": [
           {
-            "duration": 6.479718629,
+            "duration": 7.161323723,
             "location": "pseg.feature:4"
           }
         ]
@@ -41,12 +41,12 @@
       {
         "name": "the user enters login information",
         "aggregatedDurations": {
-          "average": 5.000554216,
-          "median": 5.000554216
+          "average": 5.00069948,
+          "median": 5.00069948
         },
         "durations": [
           {
-            "duration": 5.000554216,
+            "duration": 5.00069948,
             "location": "pseg.feature:5"
           }
         ]
