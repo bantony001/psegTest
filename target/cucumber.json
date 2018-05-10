@@ -1,0 +1,58 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 11,
+        "name": "Test Login with valid credentials",
+        "description": "",
+        "id": "test-pseg-login;test-login-with-valid-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6479718629,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user is in pseg application",
+            "match": {
+              "location": "SmokeTest.the_user_is_in_pseg_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5000554216,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user enters login information",
+            "match": {
+              "location": "SmokeTest.the_user_enters_login_information()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 38285089,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user should be logged in",
+            "match": {
+              "location": "SmokeTest.the_user_should_be_logged_in()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test PSEG login",
+    "description": "",
+    "id": "test-pseg-login",
+    "keyword": "Feature",
+    "uri": "pseg.feature"
+  }
+]

@@ -1,0 +1,13 @@
+Feature: Test PSEG login
+
+  Scenario Outline: Test Login with valid credentials [90m# pseg.feature:3[0m
+    [36mGiven [0m[36mthe user is in pseg application[0m
+    [36mWhen [0m[36mthe user enters login information[0m
+    [36mThen [0m[36mthe user should be logged in[0m
+
+    Examples: 
+
+  Scenario Outline: Test Login with valid credentials [90m# pseg.feature:11[0m
+    [32mGiven [0m[32mthe user is in pseg application[0m             [90m# SmokeTest.the_user_is_in_pseg_application()[0m
+    [32mWhen [0m[32mthe user enters login information[0m            [90m# SmokeTest.the_user_enters_login_information()[0m
+    [32mThen [0m[32mthe user should be logged in[0m                 [90m# SmokeTest.the_user_should_be_logged_in()[0m

@@ -1,0 +1,56 @@
+[
+  {
+    "source": "^the user should be logged in$",
+    "steps": [
+      {
+        "name": "the user should be logged in",
+        "aggregatedDurations": {
+          "average": 0.038285089,
+          "median": 0.038285089
+        },
+        "durations": [
+          {
+            "duration": 0.038285089,
+            "location": "pseg.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^the user is in pseg application$",
+    "steps": [
+      {
+        "name": "the user is in pseg application",
+        "aggregatedDurations": {
+          "average": 6.479718629,
+          "median": 6.479718629
+        },
+        "durations": [
+          {
+            "duration": 6.479718629,
+            "location": "pseg.feature:4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^the user enters login information$",
+    "steps": [
+      {
+        "name": "the user enters login information",
+        "aggregatedDurations": {
+          "average": 5.000554216,
+          "median": 5.000554216
+        },
+        "durations": [
+          {
+            "duration": 5.000554216,
+            "location": "pseg.feature:5"
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="11.518558">
+<testcase classname="Test PSEG login" name="Test Login with valid credentials" time="11.518558">
+<system-out><![CDATA[Given the user is in pseg application.......................................passed
+When the user enters login information......................................passed
+Then the user should be logged in...........................................passed
+]]></system-out>
+</testcase>
+</testsuite>
