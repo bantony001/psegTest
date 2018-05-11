@@ -5,12 +5,12 @@
       {
         "name": "the user enters valid \"Jenny\" in Name field",
         "aggregatedDurations": {
-          "average": 6.211737502,
-          "median": 6.211737502
+          "average": 6.220926644,
+          "median": 6.220926644
         },
         "durations": [
           {
-            "duration": 6.211737502,
+            "duration": 6.220926644,
             "location": "Script1_VerifyNameField.feature:17"
           }
         ]
@@ -18,12 +18,12 @@
       {
         "name": "the user enters valid \"Junior M. Mathew\" in Name field",
         "aggregatedDurations": {
-          "average": 6.274467141,
-          "median": 6.274467141
+          "average": 6.289581719,
+          "median": 6.289581719
         },
         "durations": [
           {
-            "duration": 6.274467141,
+            "duration": 6.289581719,
             "location": "Script1_VerifyNameField.feature:17"
           }
         ]
@@ -31,12 +31,12 @@
       {
         "name": "the user enters valid \"Jenny Jackson\" in Name field",
         "aggregatedDurations": {
-          "average": 6.26983132,
-          "median": 6.26983132
+          "average": 6.27546899,
+          "median": 6.27546899
         },
         "durations": [
           {
-            "duration": 6.26983132,
+            "duration": 6.27546899,
             "location": "Script6_EndToEndFlowVerification.feature:6"
           }
         ]
@@ -49,12 +49,12 @@
       {
         "name": "the user enters invalid \"\" in Age field",
         "aggregatedDurations": {
-          "average": 6.169295501,
-          "median": 6.169295501
+          "average": 6.17160749,
+          "median": 6.17160749
         },
         "durations": [
           {
-            "duration": 6.169295501,
+            "duration": 6.17160749,
             "location": "Script2_Verify_Age_Field.feature:6"
           }
         ]
@@ -62,12 +62,12 @@
       {
         "name": "the user enters invalid \"17\" in Age field",
         "aggregatedDurations": {
-          "average": 6.21026907,
-          "median": 6.21026907
+          "average": 6.19513002,
+          "median": 6.19513002
         },
         "durations": [
           {
-            "duration": 6.21026907,
+            "duration": 6.19513002,
             "location": "Script2_Verify_Age_Field.feature:6"
           }
         ]
@@ -80,24 +80,24 @@
       {
         "name": "the user enters valid \"A1234567\" in Password field",
         "aggregatedDurations": {
-          "average": 6.223347087,
-          "median": 6.240107827
+          "average": 6.22509381,
+          "median": 6.237315439
         },
         "durations": [
           {
-            "duration": 6.238015708,
+            "duration": 6.240313881,
             "location": "Script3_Verify_Password_Field.feature:18"
           },
           {
-            "duration": 6.242199946,
+            "duration": 6.234316998,
             "location": "Script4_Verify_Password_And_Confirm_Password_Field.feature:6"
           },
           {
-            "duration": 6.246645898,
+            "duration": 6.253932396,
             "location": "Script4_Verify_Password_And_Confirm_Password_Field.feature:18"
           },
           {
-            "duration": 6.166526798,
+            "duration": 6.171811965,
             "location": "Script6_EndToEndFlowVerification.feature:10"
           }
         ]
@@ -105,16 +105,16 @@
       {
         "name": "the user enters valid \"A12345678901234\" in Password field",
         "aggregatedDurations": {
-          "average": 6.287193939,
-          "median": 6.287193939
+          "average": 6.28930915,
+          "median": 6.28930915
         },
         "durations": [
           {
-            "duration": 6.286862358,
+            "duration": 6.27631768,
             "location": "Script3_Verify_Password_Field.feature:18"
           },
           {
-            "duration": 6.28752552,
+            "duration": 6.302300621,
             "location": "Script4_Verify_Password_And_Confirm_Password_Field.feature:18"
           }
         ]
@@ -122,12 +122,12 @@
       {
         "name": "the user enters valid \"ABC345678901234\" in Password field",
         "aggregatedDurations": {
-          "average": 6.288807634,
-          "median": 6.288807634
+          "average": 6.289866325,
+          "median": 6.289866325
         },
         "durations": [
           {
-            "duration": 6.288807634,
+            "duration": 6.289866325,
             "location": "Script4_Verify_Password_And_Confirm_Password_Field.feature:6"
           }
         ]
@@ -140,16 +140,16 @@
       {
         "name": "the entered \"chess\" should appear above the Hobby field",
         "aggregatedDurations": {
-          "average": 0.024102402,
-          "median": 0.024102402
+          "average": 0.023086934,
+          "median": 0.023086934
         },
         "durations": [
           {
-            "duration": 0.023550951,
+            "duration": 0.021954624,
             "location": "Script5_Verify_Hobby_Field.feature:8"
           },
           {
-            "duration": 0.024653853,
+            "duration": 0.024219244,
             "location": "Script6_EndToEndFlowVerification.feature:16"
           }
         ]
@@ -157,12 +157,12 @@
       {
         "name": "the entered \"baseball\" should appear above the Hobby field",
         "aggregatedDurations": {
-          "average": 0.022083309,
-          "median": 0.022083309
+          "average": 0.02193015,
+          "median": 0.02193015
         },
         "durations": [
           {
-            "duration": 0.022083309,
+            "duration": 0.02193015,
             "location": "Script5_Verify_Hobby_Field.feature:8"
           }
         ]
@@ -170,12 +170,12 @@
       {
         "name": "the entered \"watching tv\" should appear above the Hobby field",
         "aggregatedDurations": {
-          "average": 0.02329437,
-          "median": 0.02329437
+          "average": 0.02176436,
+          "median": 0.02176436
         },
         "durations": [
           {
-            "duration": 0.02329437,
+            "duration": 0.02176436,
             "location": "Script5_Verify_Hobby_Field.feature:8"
           }
         ]
@@ -188,20 +188,20 @@
       {
         "name": "the error should not appear for Name field",
         "aggregatedDurations": {
-          "average": 0.091846944,
-          "median": 0.090951938
+          "average": 0.087775074,
+          "median": 0.084802291
         },
         "durations": [
           {
-            "duration": 0.087170728,
+            "duration": 0.094233408,
             "location": "Script1_VerifyNameField.feature:18"
           },
           {
-            "duration": 0.097418167,
+            "duration": 0.084289524,
             "location": "Script1_VerifyNameField.feature:18"
           },
           {
-            "duration": 0.090951938,
+            "duration": 0.084802291,
             "location": "Script6_EndToEndFlowVerification.feature:7"
           }
         ]
@@ -214,20 +214,20 @@
       {
         "name": "the error should appear for Password field",
         "aggregatedDurations": {
-          "average": 0.10330847,
-          "median": 0.104453609
+          "average": 0.094734858,
+          "median": 0.094766701
         },
         "durations": [
           {
-            "duration": 0.104453609,
+            "duration": 0.094766701,
             "location": "Script3_Verify_Password_Field.feature:7"
           },
           {
-            "duration": 0.090368908,
+            "duration": 0.1015053,
             "location": "Script3_Verify_Password_Field.feature:7"
           },
           {
-            "duration": 0.115102893,
+            "duration": 0.087932575,
             "location": "Script3_Verify_Password_Field.feature:7"
           }
         ]
@@ -240,16 +240,16 @@
       {
         "name": "the user enters the \"chess\" in Hobby field",
         "aggregatedDurations": {
-          "average": 6.192716187,
-          "median": 6.192716187
+          "average": 6.196094368,
+          "median": 6.196094368
         },
         "durations": [
           {
-            "duration": 6.22187165,
+            "duration": 6.21642227,
             "location": "Script5_Verify_Hobby_Field.feature:6"
           },
           {
-            "duration": 6.163560724,
+            "duration": 6.175766466,
             "location": "Script6_EndToEndFlowVerification.feature:14"
           }
         ]
@@ -257,12 +257,12 @@
       {
         "name": "the user enters the \"baseball\" in Hobby field",
         "aggregatedDurations": {
-          "average": 6.255051876,
-          "median": 6.255051876
+          "average": 6.252354622,
+          "median": 6.252354622
         },
         "durations": [
           {
-            "duration": 6.255051876,
+            "duration": 6.252354622,
             "location": "Script5_Verify_Hobby_Field.feature:6"
           }
         ]
@@ -270,12 +270,12 @@
       {
         "name": "the user enters the \"watching tv\" in Hobby field",
         "aggregatedDurations": {
-          "average": 6.259891778,
-          "median": 6.259891778
+          "average": 6.263714041,
+          "median": 6.263714041
         },
         "durations": [
           {
-            "duration": 6.259891778,
+            "duration": 6.263714041,
             "location": "Script5_Verify_Hobby_Field.feature:6"
           }
         ]
@@ -288,12 +288,12 @@
       {
         "name": "the user enters valid \"18\" in Age field",
         "aggregatedDurations": {
-          "average": 6.206073384,
-          "median": 6.206073384
+          "average": 6.211941187,
+          "median": 6.211941187
         },
         "durations": [
           {
-            "duration": 6.206073384,
+            "duration": 6.211941187,
             "location": "Script2_Verify_Age_Field.feature:17"
           }
         ]
@@ -301,12 +301,12 @@
       {
         "name": "the user enters valid \"101\" in Age field",
         "aggregatedDurations": {
-          "average": 6.219001893,
-          "median": 6.219001893
+          "average": 6.21523292,
+          "median": 6.21523292
         },
         "durations": [
           {
-            "duration": 6.219001893,
+            "duration": 6.21523292,
             "location": "Script2_Verify_Age_Field.feature:17"
           }
         ]
@@ -314,12 +314,12 @@
       {
         "name": "the user enters valid \"19\" in Age field",
         "aggregatedDurations": {
-          "average": 6.161878345,
-          "median": 6.161878345
+          "average": 6.184667843,
+          "median": 6.184667843
         },
         "durations": [
           {
-            "duration": 6.161878345,
+            "duration": 6.184667843,
             "location": "Script6_EndToEndFlowVerification.feature:8"
           }
         ]
@@ -332,16 +332,16 @@
       {
         "name": "the error should appear for Name field",
         "aggregatedDurations": {
-          "average": 0.093588995,
-          "median": 0.093588995
+          "average": 0.085561177,
+          "median": 0.085561177
         },
         "durations": [
           {
-            "duration": 0.106552834,
+            "duration": 0.121291225,
             "location": "Script1_VerifyNameField.feature:7"
           },
           {
-            "duration": 0.080625157,
+            "duration": 0.04983113,
             "location": "Script1_VerifyNameField.feature:7"
           }
         ]
@@ -354,16 +354,16 @@
       {
         "name": "the error should appear for Confirm Password field",
         "aggregatedDurations": {
-          "average": 3.057879672,
-          "median": 3.057879672
+          "average": 3.059861068,
+          "median": 3.059861068
         },
         "durations": [
           {
-            "duration": 3.057990792,
+            "duration": 3.058378821,
             "location": "Script4_Verify_Password_And_Confirm_Password_Field.feature:8"
           },
           {
-            "duration": 3.057768553,
+            "duration": 3.061343315,
             "location": "Script4_Verify_Password_And_Confirm_Password_Field.feature:8"
           }
         ]
@@ -376,24 +376,24 @@
       {
         "name": "clicks on the Add button",
         "aggregatedDurations": {
-          "average": 0.192473225,
-          "median": 0.189563008
+          "average": 0.195058571,
+          "median": 0.199354127
         },
         "durations": [
           {
-            "duration": 0.20318389,
+            "duration": 0.161166234,
             "location": "Script5_Verify_Hobby_Field.feature:7"
           },
           {
-            "duration": 0.187582994,
+            "duration": 0.220359798,
             "location": "Script5_Verify_Hobby_Field.feature:7"
           },
           {
-            "duration": 0.188354316,
+            "duration": 0.204454557,
             "location": "Script5_Verify_Hobby_Field.feature:7"
           },
           {
-            "duration": 0.1907717,
+            "duration": 0.194253698,
             "location": "Script6_EndToEndFlowVerification.feature:15"
           }
         ]
@@ -406,92 +406,92 @@
       {
         "name": "the form is opened",
         "aggregatedDurations": {
-          "average": 1.042888752,
-          "median": 0.953254549
+          "average": 0.98469653,
+          "median": 0.949859394
         },
         "durations": [
           {
-            "duration": 0.993744563,
+            "duration": 0.968598074,
             "location": "Script1_VerifyNameField.feature:5"
           },
           {
-            "duration": 0.918468521,
+            "duration": 1.286678409,
             "location": "Script1_VerifyNameField.feature:5"
           },
           {
-            "duration": 0.960381177,
+            "duration": 0.923954217,
             "location": "Script1_VerifyNameField.feature:16"
           },
           {
-            "duration": 2.84014509,
+            "duration": 0.881942087,
             "location": "Script1_VerifyNameField.feature:16"
           },
           {
-            "duration": 0.913163616,
+            "duration": 0.949859394,
             "location": "Script2_Verify_Age_Field.feature:5"
           },
           {
-            "duration": 0.958971562,
+            "duration": 1.042606213,
             "location": "Script2_Verify_Age_Field.feature:5"
           },
           {
-            "duration": 1.033119042,
+            "duration": 0.938032997,
             "location": "Script2_Verify_Age_Field.feature:16"
           },
           {
-            "duration": 0.959846699,
+            "duration": 0.968432679,
             "location": "Script2_Verify_Age_Field.feature:16"
           },
           {
-            "duration": 0.967224776,
+            "duration": 1.062379506,
             "location": "Script3_Verify_Password_Field.feature:5"
           },
           {
-            "duration": 0.953254549,
+            "duration": 1.12047964,
             "location": "Script3_Verify_Password_Field.feature:5"
           },
           {
-            "duration": 0.922622365,
+            "duration": 0.919210237,
             "location": "Script3_Verify_Password_Field.feature:5"
           },
           {
-            "duration": 0.937981286,
+            "duration": 1.015853135,
             "location": "Script3_Verify_Password_Field.feature:17"
           },
           {
-            "duration": 0.966644114,
+            "duration": 0.906455017,
             "location": "Script3_Verify_Password_Field.feature:17"
           },
           {
-            "duration": 1.026722683,
+            "duration": 0.91637206,
             "location": "Script4_Verify_Password_And_Confirm_Password_Field.feature:5"
           },
           {
-            "duration": 0.950142817,
+            "duration": 0.945031729,
             "location": "Script4_Verify_Password_And_Confirm_Password_Field.feature:5"
           },
           {
-            "duration": 0.938477474,
+            "duration": 0.963211458,
             "location": "Script4_Verify_Password_And_Confirm_Password_Field.feature:17"
           },
           {
-            "duration": 0.97942657,
+            "duration": 0.949449259,
             "location": "Script4_Verify_Password_And_Confirm_Password_Field.feature:17"
           },
           {
-            "duration": 0.891812944,
+            "duration": 1.016089978,
             "location": "Script5_Verify_Hobby_Field.feature:5"
           },
           {
-            "duration": 0.91540179,
+            "duration": 0.930641105,
             "location": "Script5_Verify_Hobby_Field.feature:5"
           },
           {
-            "duration": 0.947202007,
+            "duration": 0.948432411,
             "location": "Script5_Verify_Hobby_Field.feature:5"
           },
           {
-            "duration": 0.925910151,
+            "duration": 1.024917539,
             "location": "Script6_EndToEndFlowVerification.feature:5"
           }
         ]
@@ -504,16 +504,16 @@
       {
         "name": "the error should appear for Age field",
         "aggregatedDurations": {
-          "average": 0.089801075,
-          "median": 0.089801075
+          "average": 0.089292847,
+          "median": 0.089292847
         },
         "durations": [
           {
-            "duration": 0.089384822,
+            "duration": 0.090828384,
             "location": "Script2_Verify_Age_Field.feature:7"
           },
           {
-            "duration": 0.090217328,
+            "duration": 0.087757311,
             "location": "Script2_Verify_Age_Field.feature:7"
           }
         ]
@@ -526,16 +526,16 @@
       {
         "name": "the user enters valid \"A1234567\" in Confirm Password field",
         "aggregatedDurations": {
-          "average": 6.200714794,
-          "median": 6.200714794
+          "average": 6.200512885,
+          "median": 6.200512885
         },
         "durations": [
           {
-            "duration": 6.205282326,
+            "duration": 6.208512085,
             "location": "Script4_Verify_Password_And_Confirm_Password_Field.feature:19"
           },
           {
-            "duration": 6.196147263,
+            "duration": 6.192513686,
             "location": "Script6_EndToEndFlowVerification.feature:12"
           }
         ]
@@ -543,12 +543,12 @@
       {
         "name": "the user enters valid \"A12345678901234\" in Confirm Password field",
         "aggregatedDurations": {
-          "average": 6.23499595,
-          "median": 6.23499595
+          "average": 6.234487131,
+          "median": 6.234487131
         },
         "durations": [
           {
-            "duration": 6.23499595,
+            "duration": 6.234487131,
             "location": "Script4_Verify_Password_And_Confirm_Password_Field.feature:19"
           }
         ]
@@ -561,20 +561,20 @@
       {
         "name": "the error should not appear for Confirm Password field",
         "aggregatedDurations": {
-          "average": 3.063220301,
-          "median": 3.06514742
+          "average": 3.065878477,
+          "median": 3.067970992
         },
         "durations": [
           {
-            "duration": 3.06514742,
+            "duration": 3.068332967,
             "location": "Script4_Verify_Password_And_Confirm_Password_Field.feature:20"
           },
           {
-            "duration": 3.057757106,
+            "duration": 3.061331472,
             "location": "Script4_Verify_Password_And_Confirm_Password_Field.feature:20"
           },
           {
-            "duration": 3.066756378,
+            "duration": 3.067970992,
             "location": "Script6_EndToEndFlowVerification.feature:13"
           }
         ]
@@ -587,12 +587,12 @@
       {
         "name": "the user enters invalid \"A1234bc\" in Confirm Password field",
         "aggregatedDurations": {
-          "average": 6.207472735,
-          "median": 6.207472735
+          "average": 6.184894423,
+          "median": 6.184894423
         },
         "durations": [
           {
-            "duration": 6.207472735,
+            "duration": 6.184894423,
             "location": "Script4_Verify_Password_And_Confirm_Password_Field.feature:7"
           }
         ]
@@ -600,12 +600,12 @@
       {
         "name": "the user enters invalid \"abc345678901234\" in Confirm Password field",
         "aggregatedDurations": {
-          "average": 6.218812024,
-          "median": 6.218812024
+          "average": 6.242241394,
+          "median": 6.242241394
         },
         "durations": [
           {
-            "duration": 6.218812024,
+            "duration": 6.242241394,
             "location": "Script4_Verify_Password_And_Confirm_Password_Field.feature:7"
           }
         ]
@@ -618,24 +618,24 @@
       {
         "name": "the hobby field should disappear from the textbox",
         "aggregatedDurations": {
-          "average": 0.047453811,
-          "median": 0.047545786
+          "average": 0.045791366,
+          "median": 0.045305441
         },
         "durations": [
           {
-            "duration": 0.047355719,
+            "duration": 0.045821761,
             "location": "Script5_Verify_Hobby_Field.feature:9"
           },
           {
-            "duration": 0.047735853,
+            "duration": 0.044066749,
             "location": "Script5_Verify_Hobby_Field.feature:9"
           },
           {
-            "duration": 0.045793339,
+            "duration": 0.044789122,
             "location": "Script5_Verify_Hobby_Field.feature:9"
           },
           {
-            "duration": 0.048930335,
+            "duration": 0.048487832,
             "location": "Script6_EndToEndFlowVerification.feature:17"
           }
         ]
@@ -648,12 +648,12 @@
       {
         "name": "the user enters invalid \"\" in Name field",
         "aggregatedDurations": {
-          "average": 6.16632548,
-          "median": 6.16632548
+          "average": 6.155457906,
+          "median": 6.155457906
         },
         "durations": [
           {
-            "duration": 6.16632548,
+            "duration": 6.155457906,
             "location": "Script1_VerifyNameField.feature:6"
           }
         ]
@@ -661,12 +661,12 @@
       {
         "name": "the user enters invalid \"This is an invalid value to test\" in Name field",
         "aggregatedDurations": {
-          "average": 6.36891805,
-          "median": 6.36891805
+          "average": 6.363979069,
+          "median": 6.363979069
         },
         "durations": [
           {
-            "duration": 6.36891805,
+            "duration": 6.363979069,
             "location": "Script1_VerifyNameField.feature:6"
           }
         ]
@@ -679,20 +679,20 @@
       {
         "name": "the error should not appear for Password field",
         "aggregatedDurations": {
-          "average": 0.059375801,
-          "median": 0.059291064
+          "average": 0.05751342,
+          "median": 0.055366169
         },
         "durations": [
           {
-            "duration": 0.059291064,
+            "duration": 0.051378509,
             "location": "Script3_Verify_Password_Field.feature:19"
           },
           {
-            "duration": 0.061277393,
+            "duration": 0.055366169,
             "location": "Script3_Verify_Password_Field.feature:19"
           },
           {
-            "duration": 0.057558947,
+            "duration": 0.065795582,
             "location": "Script6_EndToEndFlowVerification.feature:11"
           }
         ]
@@ -705,20 +705,20 @@
       {
         "name": "the error should not appear for Age field",
         "aggregatedDurations": {
-          "average": 0.066188874,
-          "median": 0.061494895
+          "average": 0.060990417,
+          "median": 0.062034109
         },
         "durations": [
           {
-            "duration": 0.058256451,
+            "duration": 0.065642818,
             "location": "Script2_Verify_Age_Field.feature:18"
           },
           {
-            "duration": 0.078815276,
+            "duration": 0.055294326,
             "location": "Script2_Verify_Age_Field.feature:18"
           },
           {
-            "duration": 0.061494895,
+            "duration": 0.062034109,
             "location": "Script6_EndToEndFlowVerification.feature:9"
           }
         ]
@@ -731,12 +731,12 @@
       {
         "name": "the user enters invalid \"\" in Password field",
         "aggregatedDurations": {
-          "average": 6.168119177,
-          "median": 6.168119177
+          "average": 6.18285362,
+          "median": 6.18285362
         },
         "durations": [
           {
-            "duration": 6.168119177,
+            "duration": 6.18285362,
             "location": "Script3_Verify_Password_Field.feature:6"
           }
         ]
@@ -744,12 +744,12 @@
       {
         "name": "the user enters invalid \"A123456\" in Password field",
         "aggregatedDurations": {
-          "average": 6.221586648,
-          "median": 6.221586648
+          "average": 6.214351861,
+          "median": 6.214351861
         },
         "durations": [
           {
-            "duration": 6.221586648,
+            "duration": 6.214351861,
             "location": "Script3_Verify_Password_Field.feature:6"
           }
         ]
@@ -757,12 +757,12 @@
       {
         "name": "the user enters invalid \"A123456789012345\" in Password field",
         "aggregatedDurations": {
-          "average": 6.286994201,
-          "median": 6.286994201
+          "average": 6.303095626,
+          "median": 6.303095626
         },
         "durations": [
           {
-            "duration": 6.286994201,
+            "duration": 6.303095626,
             "location": "Script3_Verify_Password_Field.feature:6"
           }
         ]

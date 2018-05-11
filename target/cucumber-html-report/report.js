@@ -66,7 +66,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 5099621997,
+  "duration": 5191691838,
   "status": "passed"
 });
 formatter.scenario({
@@ -105,7 +105,7 @@ formatter.match({
   "location": "FormValidationTest.the_form_is_opened()"
 });
 formatter.result({
-  "duration": 993744563,
+  "duration": 968598074,
   "status": "passed"
 });
 formatter.match({
@@ -118,22 +118,22 @@ formatter.match({
   "location": "FormValidationTest.the_user_enters_invalid_in_Name_field(String)"
 });
 formatter.result({
-  "duration": 6166325480,
+  "duration": 6155457906,
   "status": "passed"
 });
 formatter.match({
   "location": "FormValidationTest.the_error_should_appear_for_Name_field()"
 });
 formatter.result({
-  "duration": 106552834,
+  "duration": 121291225,
   "status": "passed"
 });
 formatter.after({
-  "duration": 22216731,
+  "duration": 24589116,
   "status": "passed"
 });
 formatter.before({
-  "duration": 4067601910,
+  "duration": 4049885999,
   "status": "passed"
 });
 formatter.scenario({
@@ -172,7 +172,7 @@ formatter.match({
   "location": "FormValidationTest.the_form_is_opened()"
 });
 formatter.result({
-  "duration": 918468521,
+  "duration": 1286678409,
   "status": "passed"
 });
 formatter.match({
@@ -185,18 +185,18 @@ formatter.match({
   "location": "FormValidationTest.the_user_enters_invalid_in_Name_field(String)"
 });
 formatter.result({
-  "duration": 6368918050,
+  "duration": 6363979069,
   "status": "passed"
 });
 formatter.match({
   "location": "FormValidationTest.the_error_should_appear_for_Name_field()"
 });
 formatter.result({
-  "duration": 80625157,
+  "duration": 49831130,
   "status": "passed"
 });
 formatter.after({
-  "duration": 24881617,
+  "duration": 22249099,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -259,7 +259,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 4043929379,
+  "duration": 4084201498,
   "status": "passed"
 });
 formatter.scenario({
@@ -298,7 +298,7 @@ formatter.match({
   "location": "FormValidationTest.the_form_is_opened()"
 });
 formatter.result({
-  "duration": 960381177,
+  "duration": 923954217,
   "status": "passed"
 });
 formatter.match({
@@ -311,22 +311,22 @@ formatter.match({
   "location": "FormValidationTest.the_user_enters_valid_in_Name_field(String)"
 });
 formatter.result({
-  "duration": 6211737502,
+  "duration": 6220926644,
   "status": "passed"
 });
 formatter.match({
   "location": "FormValidationTest.the_error_should_not_appear_for_Name_field()"
 });
 formatter.result({
-  "duration": 87170728,
+  "duration": 94233408,
   "status": "passed"
 });
 formatter.after({
-  "duration": 21344751,
+  "duration": 20888828,
   "status": "passed"
 });
 formatter.before({
-  "duration": 4018497100,
+  "duration": 4020213428,
   "status": "passed"
 });
 formatter.scenario({
@@ -365,7 +365,7 @@ formatter.match({
   "location": "FormValidationTest.the_form_is_opened()"
 });
 formatter.result({
-  "duration": 2840145090,
+  "duration": 881942087,
   "status": "passed"
 });
 formatter.match({
@@ -378,18 +378,18 @@ formatter.match({
   "location": "FormValidationTest.the_user_enters_valid_in_Name_field(String)"
 });
 formatter.result({
-  "duration": 6274467141,
+  "duration": 6289581719,
   "status": "passed"
 });
 formatter.match({
   "location": "FormValidationTest.the_error_should_not_appear_for_Name_field()"
 });
 formatter.result({
-  "duration": 97418167,
+  "duration": 84289524,
   "status": "passed"
 });
 formatter.after({
-  "duration": 20781852,
+  "duration": 20800801,
   "status": "passed"
 });
 formatter.uri("Script2_Verify_Age_Field.feature");
@@ -460,7 +460,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 4042796871,
+  "duration": 4003249496,
   "status": "passed"
 });
 formatter.scenario({
@@ -499,7 +499,7 @@ formatter.match({
   "location": "FormValidationTest.the_form_is_opened()"
 });
 formatter.result({
-  "duration": 913163616,
+  "duration": 949859394,
   "status": "passed"
 });
 formatter.match({
@@ -512,22 +512,22 @@ formatter.match({
   "location": "FormValidationTest.the_user_enters_invalid_in_Age_field(String)"
 });
 formatter.result({
-  "duration": 6169295501,
+  "duration": 6171607490,
   "status": "passed"
 });
 formatter.match({
   "location": "FormValidationTest.the_error_should_appear_for_Age_field()"
 });
 formatter.result({
-  "duration": 89384822,
+  "duration": 90828384,
   "status": "passed"
 });
 formatter.after({
-  "duration": 20964617,
+  "duration": 25918204,
   "status": "passed"
 });
 formatter.before({
-  "duration": 4018610390,
+  "duration": 4003373444,
   "status": "passed"
 });
 formatter.scenario({
@@ -566,7 +566,7 @@ formatter.match({
   "location": "FormValidationTest.the_form_is_opened()"
 });
 formatter.result({
-  "duration": 958971562,
+  "duration": 1042606213,
   "status": "passed"
 });
 formatter.match({
@@ -579,18 +579,18 @@ formatter.match({
   "location": "FormValidationTest.the_user_enters_invalid_in_Age_field(String)"
 });
 formatter.result({
-  "duration": 6210269070,
+  "duration": 6195130020,
   "status": "passed"
 });
 formatter.match({
   "location": "FormValidationTest.the_error_should_appear_for_Age_field()"
 });
 formatter.result({
-  "duration": 90217328,
+  "duration": 87757311,
   "status": "passed"
 });
 formatter.after({
-  "duration": 22319758,
+  "duration": 24984250,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -653,7 +653,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 4041266467,
+  "duration": 4051780749,
   "status": "passed"
 });
 formatter.scenario({
@@ -692,7 +692,7 @@ formatter.match({
   "location": "FormValidationTest.the_form_is_opened()"
 });
 formatter.result({
-  "duration": 1033119042,
+  "duration": 938032997,
   "status": "passed"
 });
 formatter.match({
@@ -705,22 +705,22 @@ formatter.match({
   "location": "FormValidationTest.the_user_enters_valid_in_Age_field(String)"
 });
 formatter.result({
-  "duration": 6206073384,
+  "duration": 6211941187,
   "status": "passed"
 });
 formatter.match({
   "location": "FormValidationTest.the_error_should_not_appear_for_Age_field()"
 });
 formatter.result({
-  "duration": 58256451,
+  "duration": 65642818,
   "status": "passed"
 });
 formatter.after({
-  "duration": 26372154,
+  "duration": 32590881,
   "status": "passed"
 });
 formatter.before({
-  "duration": 4058073687,
+  "duration": 4050646662,
   "status": "passed"
 });
 formatter.scenario({
@@ -759,7 +759,7 @@ formatter.match({
   "location": "FormValidationTest.the_form_is_opened()"
 });
 formatter.result({
-  "duration": 959846699,
+  "duration": 968432679,
   "status": "passed"
 });
 formatter.match({
@@ -772,18 +772,18 @@ formatter.match({
   "location": "FormValidationTest.the_user_enters_valid_in_Age_field(String)"
 });
 formatter.result({
-  "duration": 6219001893,
+  "duration": 6215232920,
   "status": "passed"
 });
 formatter.match({
   "location": "FormValidationTest.the_error_should_not_appear_for_Age_field()"
 });
 formatter.result({
-  "duration": 78815276,
+  "duration": 55294326,
   "status": "passed"
 });
 formatter.after({
-  "duration": 38196578,
+  "duration": 27475451,
   "status": "passed"
 });
 formatter.uri("Script3_Verify_Password_Field.feature");
@@ -861,7 +861,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 4015652212,
+  "duration": 4027111896,
   "status": "passed"
 });
 formatter.scenario({
@@ -900,7 +900,7 @@ formatter.match({
   "location": "FormValidationTest.the_form_is_opened()"
 });
 formatter.result({
-  "duration": 967224776,
+  "duration": 1062379506,
   "status": "passed"
 });
 formatter.match({
@@ -913,22 +913,22 @@ formatter.match({
   "location": "FormValidationTest.the_user_enters_invalid_in_Password_field(String)"
 });
 formatter.result({
-  "duration": 6168119177,
+  "duration": 6182853620,
   "status": "passed"
 });
 formatter.match({
   "location": "FormValidationTest.the_error_should_appear_for_Password_field()"
 });
 formatter.result({
-  "duration": 104453609,
+  "duration": 94766701,
   "status": "passed"
 });
 formatter.after({
-  "duration": 22471338,
+  "duration": 26594393,
   "status": "passed"
 });
 formatter.before({
-  "duration": 4017102091,
+  "duration": 4040198696,
   "status": "passed"
 });
 formatter.scenario({
@@ -967,7 +967,7 @@ formatter.match({
   "location": "FormValidationTest.the_form_is_opened()"
 });
 formatter.result({
-  "duration": 953254549,
+  "duration": 1120479640,
   "status": "passed"
 });
 formatter.match({
@@ -980,22 +980,22 @@ formatter.match({
   "location": "FormValidationTest.the_user_enters_invalid_in_Password_field(String)"
 });
 formatter.result({
-  "duration": 6221586648,
+  "duration": 6214351861,
   "status": "passed"
 });
 formatter.match({
   "location": "FormValidationTest.the_error_should_appear_for_Password_field()"
 });
 formatter.result({
-  "duration": 90368908,
+  "duration": 101505300,
   "status": "passed"
 });
 formatter.after({
-  "duration": 22358443,
+  "duration": 29323227,
   "status": "passed"
 });
 formatter.before({
-  "duration": 4213821332,
+  "duration": 4031576006,
   "status": "passed"
 });
 formatter.scenario({
@@ -1034,7 +1034,7 @@ formatter.match({
   "location": "FormValidationTest.the_form_is_opened()"
 });
 formatter.result({
-  "duration": 922622365,
+  "duration": 919210237,
   "status": "passed"
 });
 formatter.match({
@@ -1047,18 +1047,18 @@ formatter.match({
   "location": "FormValidationTest.the_user_enters_invalid_in_Password_field(String)"
 });
 formatter.result({
-  "duration": 6286994201,
+  "duration": 6303095626,
   "status": "passed"
 });
 formatter.match({
   "location": "FormValidationTest.the_error_should_appear_for_Password_field()"
 });
 formatter.result({
-  "duration": 115102893,
+  "duration": 87932575,
   "status": "passed"
 });
 formatter.after({
-  "duration": 25547938,
+  "duration": 22858578,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -1121,7 +1121,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 4038788687,
+  "duration": 4001370930,
   "status": "passed"
 });
 formatter.scenario({
@@ -1160,7 +1160,7 @@ formatter.match({
   "location": "FormValidationTest.the_form_is_opened()"
 });
 formatter.result({
-  "duration": 937981286,
+  "duration": 1015853135,
   "status": "passed"
 });
 formatter.match({
@@ -1173,22 +1173,22 @@ formatter.match({
   "location": "FormValidationTest.the_user_enters_valid_in_Password_field(String)"
 });
 formatter.result({
-  "duration": 6238015708,
+  "duration": 6240313881,
   "status": "passed"
 });
 formatter.match({
   "location": "FormValidationTest.the_error_should_not_appear_for_Password_field()"
 });
 formatter.result({
-  "duration": 59291064,
+  "duration": 51378509,
   "status": "passed"
 });
 formatter.after({
-  "duration": 28420852,
+  "duration": 26410049,
   "status": "passed"
 });
 formatter.before({
-  "duration": 4025954915,
+  "duration": 4005948330,
   "status": "passed"
 });
 formatter.scenario({
@@ -1227,7 +1227,7 @@ formatter.match({
   "location": "FormValidationTest.the_form_is_opened()"
 });
 formatter.result({
-  "duration": 966644114,
+  "duration": 906455017,
   "status": "passed"
 });
 formatter.match({
@@ -1240,18 +1240,18 @@ formatter.match({
   "location": "FormValidationTest.the_user_enters_valid_in_Password_field(String)"
 });
 formatter.result({
-  "duration": 6286862358,
+  "duration": 6276317680,
   "status": "passed"
 });
 formatter.match({
   "location": "FormValidationTest.the_error_should_not_appear_for_Password_field()"
 });
 formatter.result({
-  "duration": 61277393,
+  "duration": 55366169,
   "status": "passed"
 });
 formatter.after({
-  "duration": 27546505,
+  "duration": 26025179,
   "status": "passed"
 });
 formatter.uri("Script4_Verify_Password_And_Confirm_Password_Field.feature");
@@ -1330,7 +1330,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 4044415304,
+  "duration": 3990349013,
   "status": "passed"
 });
 formatter.scenario({
@@ -1377,7 +1377,7 @@ formatter.match({
   "location": "FormValidationTest.the_form_is_opened()"
 });
 formatter.result({
-  "duration": 1026722683,
+  "duration": 916372060,
   "status": "passed"
 });
 formatter.match({
@@ -1390,7 +1390,7 @@ formatter.match({
   "location": "FormValidationTest.the_user_enters_valid_in_Password_field(String)"
 });
 formatter.result({
-  "duration": 6242199946,
+  "duration": 6234316998,
   "status": "passed"
 });
 formatter.match({
@@ -1403,22 +1403,22 @@ formatter.match({
   "location": "FormValidationTest.the_user_enters_invalid_in_Confirm_Password_field(String)"
 });
 formatter.result({
-  "duration": 6207472735,
+  "duration": 6184894423,
   "status": "passed"
 });
 formatter.match({
   "location": "FormValidationTest.the_error_should_appear_for_Confirm_Password_field()"
 });
 formatter.result({
-  "duration": 3057990792,
+  "duration": 3058378821,
   "status": "passed"
 });
 formatter.after({
-  "duration": 30699683,
+  "duration": 25651360,
   "status": "passed"
 });
 formatter.before({
-  "duration": 4030708763,
+  "duration": 4009494276,
   "status": "passed"
 });
 formatter.scenario({
@@ -1465,7 +1465,7 @@ formatter.match({
   "location": "FormValidationTest.the_form_is_opened()"
 });
 formatter.result({
-  "duration": 950142817,
+  "duration": 945031729,
   "status": "passed"
 });
 formatter.match({
@@ -1478,7 +1478,7 @@ formatter.match({
   "location": "FormValidationTest.the_user_enters_valid_in_Password_field(String)"
 });
 formatter.result({
-  "duration": 6288807634,
+  "duration": 6289866325,
   "status": "passed"
 });
 formatter.match({
@@ -1491,18 +1491,18 @@ formatter.match({
   "location": "FormValidationTest.the_user_enters_invalid_in_Confirm_Password_field(String)"
 });
 formatter.result({
-  "duration": 6218812024,
+  "duration": 6242241394,
   "status": "passed"
 });
 formatter.match({
   "location": "FormValidationTest.the_error_should_appear_for_Confirm_Password_field()"
 });
 formatter.result({
-  "duration": 3057768553,
+  "duration": 3061343315,
   "status": "passed"
 });
 formatter.after({
-  "duration": 35254584,
+  "duration": 25800966,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -1573,7 +1573,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 4032794961,
+  "duration": 4017732095,
   "status": "passed"
 });
 formatter.scenario({
@@ -1620,7 +1620,7 @@ formatter.match({
   "location": "FormValidationTest.the_form_is_opened()"
 });
 formatter.result({
-  "duration": 938477474,
+  "duration": 963211458,
   "status": "passed"
 });
 formatter.match({
@@ -1633,7 +1633,7 @@ formatter.match({
   "location": "FormValidationTest.the_user_enters_valid_in_Password_field(String)"
 });
 formatter.result({
-  "duration": 6246645898,
+  "duration": 6253932396,
   "status": "passed"
 });
 formatter.match({
@@ -1646,22 +1646,22 @@ formatter.match({
   "location": "FormValidationTest.the_user_enters_valid_in_Confirm_Password_field(String)"
 });
 formatter.result({
-  "duration": 6205282326,
+  "duration": 6208512085,
   "status": "passed"
 });
 formatter.match({
   "location": "FormValidationTest.the_error_should_not_appear_for_Confirm_Password_field()"
 });
 formatter.result({
-  "duration": 3065147420,
+  "duration": 3068332967,
   "status": "passed"
 });
 formatter.after({
-  "duration": 32694698,
+  "duration": 36773146,
   "status": "passed"
 });
 formatter.before({
-  "duration": 4009022957,
+  "duration": 4016600377,
   "status": "passed"
 });
 formatter.scenario({
@@ -1708,7 +1708,7 @@ formatter.match({
   "location": "FormValidationTest.the_form_is_opened()"
 });
 formatter.result({
-  "duration": 979426570,
+  "duration": 949449259,
   "status": "passed"
 });
 formatter.match({
@@ -1721,7 +1721,7 @@ formatter.match({
   "location": "FormValidationTest.the_user_enters_valid_in_Password_field(String)"
 });
 formatter.result({
-  "duration": 6287525520,
+  "duration": 6302300621,
   "status": "passed"
 });
 formatter.match({
@@ -1734,18 +1734,18 @@ formatter.match({
   "location": "FormValidationTest.the_user_enters_valid_in_Confirm_Password_field(String)"
 });
 formatter.result({
-  "duration": 6234995950,
+  "duration": 6234487131,
   "status": "passed"
 });
 formatter.match({
   "location": "FormValidationTest.the_error_should_not_appear_for_Confirm_Password_field()"
 });
 formatter.result({
-  "duration": 3057757106,
+  "duration": 3061331472,
   "status": "passed"
 });
 formatter.after({
-  "duration": 27182160,
+  "duration": 27015580,
   "status": "passed"
 });
 formatter.uri("Script5_Verify_Hobby_Field.feature");
@@ -1833,7 +1833,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 3998349200,
+  "duration": 4052228383,
   "status": "passed"
 });
 formatter.scenario({
@@ -1885,7 +1885,7 @@ formatter.match({
   "location": "FormValidationTest.the_form_is_opened()"
 });
 formatter.result({
-  "duration": 891812944,
+  "duration": 1016089978,
   "status": "passed"
 });
 formatter.match({
@@ -1898,14 +1898,14 @@ formatter.match({
   "location": "FormValidationTest.the_user_enters_the_in_Hobby_field(String)"
 });
 formatter.result({
-  "duration": 6221871650,
+  "duration": 6216422270,
   "status": "passed"
 });
 formatter.match({
   "location": "FormValidationTest.clicks_on_the_Add_button()"
 });
 formatter.result({
-  "duration": 203183890,
+  "duration": 161166234,
   "status": "passed"
 });
 formatter.match({
@@ -1918,22 +1918,22 @@ formatter.match({
   "location": "FormValidationTest.the_entered_should_appear_above_the_Hobby_field(String)"
 });
 formatter.result({
-  "duration": 23550951,
+  "duration": 21954624,
   "status": "passed"
 });
 formatter.match({
   "location": "FormValidationTest.the_hobby_field_should_disappear_from_the_textbox()"
 });
 formatter.result({
-  "duration": 47355719,
+  "duration": 45821761,
   "status": "passed"
 });
 formatter.after({
-  "duration": 22899236,
+  "duration": 22961604,
   "status": "passed"
 });
 formatter.before({
-  "duration": 4064272282,
+  "duration": 4033718651,
   "status": "passed"
 });
 formatter.scenario({
@@ -1985,7 +1985,7 @@ formatter.match({
   "location": "FormValidationTest.the_form_is_opened()"
 });
 formatter.result({
-  "duration": 915401790,
+  "duration": 930641105,
   "status": "passed"
 });
 formatter.match({
@@ -1998,14 +1998,14 @@ formatter.match({
   "location": "FormValidationTest.the_user_enters_the_in_Hobby_field(String)"
 });
 formatter.result({
-  "duration": 6255051876,
+  "duration": 6252354622,
   "status": "passed"
 });
 formatter.match({
   "location": "FormValidationTest.clicks_on_the_Add_button()"
 });
 formatter.result({
-  "duration": 187582994,
+  "duration": 220359798,
   "status": "passed"
 });
 formatter.match({
@@ -2018,22 +2018,22 @@ formatter.match({
   "location": "FormValidationTest.the_entered_should_appear_above_the_Hobby_field(String)"
 });
 formatter.result({
-  "duration": 22083309,
+  "duration": 21930150,
   "status": "passed"
 });
 formatter.match({
   "location": "FormValidationTest.the_hobby_field_should_disappear_from_the_textbox()"
 });
 formatter.result({
-  "duration": 47735853,
+  "duration": 44066749,
   "status": "passed"
 });
 formatter.after({
-  "duration": 23205159,
+  "duration": 22613049,
   "status": "passed"
 });
 formatter.before({
-  "duration": 4044506884,
+  "duration": 4044171749,
   "status": "passed"
 });
 formatter.scenario({
@@ -2085,7 +2085,7 @@ formatter.match({
   "location": "FormValidationTest.the_form_is_opened()"
 });
 formatter.result({
-  "duration": 947202007,
+  "duration": 948432411,
   "status": "passed"
 });
 formatter.match({
@@ -2098,14 +2098,14 @@ formatter.match({
   "location": "FormValidationTest.the_user_enters_the_in_Hobby_field(String)"
 });
 formatter.result({
-  "duration": 6259891778,
+  "duration": 6263714041,
   "status": "passed"
 });
 formatter.match({
   "location": "FormValidationTest.clicks_on_the_Add_button()"
 });
 formatter.result({
-  "duration": 188354316,
+  "duration": 204454557,
   "status": "passed"
 });
 formatter.match({
@@ -2118,18 +2118,18 @@ formatter.match({
   "location": "FormValidationTest.the_entered_should_appear_above_the_Hobby_field(String)"
 });
 formatter.result({
-  "duration": 23294370,
+  "duration": 21764360,
   "status": "passed"
 });
 formatter.match({
   "location": "FormValidationTest.the_hobby_field_should_disappear_from_the_textbox()"
 });
 formatter.result({
-  "duration": 45793339,
+  "duration": 44789122,
   "status": "passed"
 });
 formatter.after({
-  "duration": 23950032,
+  "duration": 23103711,
   "status": "passed"
 });
 formatter.uri("Script6_EndToEndFlowVerification.feature");
@@ -2249,7 +2249,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 4066080583,
+  "duration": 4020978038,
   "status": "passed"
 });
 formatter.scenario({
@@ -2353,7 +2353,7 @@ formatter.match({
   "location": "FormValidationTest.the_form_is_opened()"
 });
 formatter.result({
-  "duration": 925910151,
+  "duration": 1024917539,
   "status": "passed"
 });
 formatter.match({
@@ -2366,14 +2366,14 @@ formatter.match({
   "location": "FormValidationTest.the_user_enters_valid_in_Name_field(String)"
 });
 formatter.result({
-  "duration": 6269831320,
+  "duration": 6275468990,
   "status": "passed"
 });
 formatter.match({
   "location": "FormValidationTest.the_error_should_not_appear_for_Name_field()"
 });
 formatter.result({
-  "duration": 90951938,
+  "duration": 84802291,
   "status": "passed"
 });
 formatter.match({
@@ -2386,14 +2386,14 @@ formatter.match({
   "location": "FormValidationTest.the_user_enters_valid_in_Age_field(String)"
 });
 formatter.result({
-  "duration": 6161878345,
+  "duration": 6184667843,
   "status": "passed"
 });
 formatter.match({
   "location": "FormValidationTest.the_error_should_not_appear_for_Age_field()"
 });
 formatter.result({
-  "duration": 61494895,
+  "duration": 62034109,
   "status": "passed"
 });
 formatter.match({
@@ -2406,14 +2406,14 @@ formatter.match({
   "location": "FormValidationTest.the_user_enters_valid_in_Password_field(String)"
 });
 formatter.result({
-  "duration": 6166526798,
+  "duration": 6171811965,
   "status": "passed"
 });
 formatter.match({
   "location": "FormValidationTest.the_error_should_not_appear_for_Password_field()"
 });
 formatter.result({
-  "duration": 57558947,
+  "duration": 65795582,
   "status": "passed"
 });
 formatter.match({
@@ -2426,14 +2426,14 @@ formatter.match({
   "location": "FormValidationTest.the_user_enters_valid_in_Confirm_Password_field(String)"
 });
 formatter.result({
-  "duration": 6196147263,
+  "duration": 6192513686,
   "status": "passed"
 });
 formatter.match({
   "location": "FormValidationTest.the_error_should_not_appear_for_Confirm_Password_field()"
 });
 formatter.result({
-  "duration": 3066756378,
+  "duration": 3067970992,
   "status": "passed"
 });
 formatter.match({
@@ -2446,14 +2446,14 @@ formatter.match({
   "location": "FormValidationTest.the_user_enters_the_in_Hobby_field(String)"
 });
 formatter.result({
-  "duration": 6163560724,
+  "duration": 6175766466,
   "status": "passed"
 });
 formatter.match({
   "location": "FormValidationTest.clicks_on_the_Add_button()"
 });
 formatter.result({
-  "duration": 190771700,
+  "duration": 194253698,
   "status": "passed"
 });
 formatter.match({
@@ -2466,18 +2466,18 @@ formatter.match({
   "location": "FormValidationTest.the_entered_should_appear_above_the_Hobby_field(String)"
 });
 formatter.result({
-  "duration": 24653853,
+  "duration": 24219244,
   "status": "passed"
 });
 formatter.match({
   "location": "FormValidationTest.the_hobby_field_should_disappear_from_the_textbox()"
 });
 formatter.result({
-  "duration": 48930335,
+  "duration": 48487832,
   "status": "passed"
 });
 formatter.after({
-  "duration": 20515009,
+  "duration": 21148171,
   "status": "passed"
 });
 });
