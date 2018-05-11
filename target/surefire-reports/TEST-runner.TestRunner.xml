@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="runner.TestRunner" time="0.003" tests="4" errors="0" skipped="0" failures="0">
+<testsuite name="runner.TestRunner" time="0.516" tests="104" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files (x86)\Java\jdk1.8.0_121\jre\bin"/>
     <property name="java.vm.version" value="25.121-b13"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:\Studies\Tools\Selenium\com.pseg"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Studies\Tools\Selenium\com.tradepmr.cucumber"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=";"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\Studies\Tools\Selenium\com.pseg"/>
+    <property name="user.dir" value="C:\Studies\Tools\Selenium\com.tradepmr.cucumber"/>
     <property name="java.runtime.version" value="1.8.0_121-b13"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="C:\Program Files (x86)\Java\jdk1.8.0_121\jre\lib\endorsed"/>
@@ -26,7 +26,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\Studies\Tools\Selenium\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf7970928690842415343.tmp"/>
+    <property name="classworlds.conf" value="C:\Studies\Tools\Selenium\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf3942612298238454680.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files (x86)\Java\jdk1.8.0_121\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_74/bin/server;C:/Program Files/Java/jre1.8.0_74/bin;C:/Program Files/Java/jre1.8.0_74/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Server 5.7\bin;C:\Program Files\Apache\maven\bin;C:\Studies\Tools\Appium\android-sdk-windows\platform-tools;C:\Studies\Tools\Appium\android-sdk-windows\tools;C:\Program Files (x86)\Java\jdk1.8.0_121\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\VisualSVN Server\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\Appium\node_modules\.bin;C:\Program Files\nodejs\;C:\Users\Home\introcs\j3d\bin;C:\Users\Home\introcs\bin;C:\Program Files (x86)\Java\jdk1.8.0_121\bin;C:\Users\Home\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\Java\jre1.8.0_121\bin;C:\Program Files (x86)\Sikuli X\libs;bin;C:\Users\Home\AppData\Local\GitHubDesktop\bin;C:\Users\Home\AppData\Local\Microsoft\WindowsApps;C:\Users\Home\AppData\Roaming\npm;C:\Program Files\eclipse;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -43,7 +43,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="32"/>
     <property name="java.home" value="C:\Program Files (x86)\Java\jdk1.8.0_121\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -52,7 +52,7 @@
     <property name="java.ext.dirs" value="C:\Program Files (x86)\Java\jdk1.8.0_121\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
     <property name="sun.boot.class.path" value="C:\Program Files (x86)\Java\jdk1.8.0_121\jre\lib\resources.jar;C:\Program Files (x86)\Java\jdk1.8.0_121\jre\lib\rt.jar;C:\Program Files (x86)\Java\jdk1.8.0_121\jre\lib\sunrsasign.jar;C:\Program Files (x86)\Java\jdk1.8.0_121\jre\lib\jsse.jar;C:\Program Files (x86)\Java\jdk1.8.0_121\jre\lib\jce.jar;C:\Program Files (x86)\Java\jdk1.8.0_121\jre\lib\charsets.jar;C:\Program Files (x86)\Java\jdk1.8.0_121\jre\lib\jfr.jar;C:\Program Files (x86)\Java\jdk1.8.0_121\jre\classes"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="C:\Studies\Tools\Selenium\com.pseg\EMBEDDED"/>
+    <property name="maven.home" value="C:\Studies\Tools\Selenium\com.tradepmr.cucumber\EMBEDDED"/>
     <property name="file.separator" value="\"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -60,8 +60,108 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
   </properties>
-  <testcase name="Given the user is in pseg application" classname="| ntbejoe5@gmail.com | password1 |" time="0.002"/>
-  <testcase name="When the user enters login information" classname="| ntbejoe5@gmail.com | password1 |" time="0"/>
-  <testcase name="Then the user should be logged in" classname="| ntbejoe5@gmail.com | password1 |" time="0"/>
-  <testcase name="| ntbejoe5@gmail.com | password1 |" classname="| ntbejoe5@gmail.com | password1 |" time="0.001"/>
+  <testcase name="Given the form is opened" classname="|  |" time="0.001"/>
+  <testcase name="Given the form is opened" classname="|  |" time="0"/>
+  <testcase name="Given the form is opened" classname="|  |" time="0"/>
+  <testcase name="When the user enters invalid &quot;&quot; in Name field" classname="|  |" time="0"/>
+  <testcase name="Then the error should appear for Name field" classname="|  |" time="0"/>
+  <testcase name="|  |" classname="|  |" time="0.023"/>
+  <testcase name="|  |" classname="|  |" time="0.022"/>
+  <testcase name="|  |" classname="|  |" time="0.023"/>
+  <testcase name="Given the form is opened" classname="| This is an invalid value to test |" time="0"/>
+  <testcase name="When the user enters invalid &quot;This is an invalid value to test&quot; in Name field" classname="| This is an invalid value to test |" time="0.001"/>
+  <testcase name="Then the error should appear for Name field" classname="| This is an invalid value to test |" time="0"/>
+  <testcase name="| This is an invalid value to test |" classname="| This is an invalid value to test |" time="0.026"/>
+  <testcase name="Given the form is opened" classname="| Jenny |" time="0"/>
+  <testcase name="When the user enters valid &quot;Jenny&quot; in Name field" classname="| Jenny |" time="0"/>
+  <testcase name="Then the error should not appear for Name field" classname="| Jenny |" time="0"/>
+  <testcase name="| Jenny |" classname="| Jenny |" time="0.022"/>
+  <testcase name="Given the form is opened" classname="| Junior M. Mathew |" time="0"/>
+  <testcase name="When the user enters valid &quot;Junior M. Mathew&quot; in Name field" classname="| Junior M. Mathew |" time="0"/>
+  <testcase name="Then the error should not appear for Name field" classname="| Junior M. Mathew |" time="0"/>
+  <testcase name="| Junior M. Mathew |" classname="| Junior M. Mathew |" time="0.023"/>
+  <testcase name="When the user enters invalid &quot;&quot; in Age field" classname="|  |" time="0"/>
+  <testcase name="Then the error should appear for Age field" classname="|  |" time="0"/>
+  <testcase name="Given the form is opened" classname="| 17 |" time="0"/>
+  <testcase name="When the user enters invalid &quot;17&quot; in Age field" classname="| 17 |" time="0"/>
+  <testcase name="Then the error should appear for Age field" classname="| 17 |" time="0"/>
+  <testcase name="| 17 |" classname="| 17 |" time="0.023"/>
+  <testcase name="Given the form is opened" classname="| 18 |" time="0"/>
+  <testcase name="When the user enters valid &quot;18&quot; in Age field" classname="| 18 |" time="0"/>
+  <testcase name="Then the error should not appear for Age field" classname="| 18 |" time="0"/>
+  <testcase name="| 18 |" classname="| 18 |" time="0.027"/>
+  <testcase name="Given the form is opened" classname="| 101 |" time="0"/>
+  <testcase name="When the user enters valid &quot;101&quot; in Age field" classname="| 101 |" time="0"/>
+  <testcase name="Then the error should not appear for Age field" classname="| 101 |" time="0"/>
+  <testcase name="| 101 |" classname="| 101 |" time="0.039"/>
+  <testcase name="When the user enters invalid &quot;&quot; in Password field" classname="|  |" time="0"/>
+  <testcase name="Then the error should appear for Password field" classname="|  |" time="0"/>
+  <testcase name="Given the form is opened" classname="| A123456 |" time="0"/>
+  <testcase name="When the user enters invalid &quot;A123456&quot; in Password field" classname="| A123456 |" time="0"/>
+  <testcase name="Then the error should appear for Password field" classname="| A123456 |" time="0"/>
+  <testcase name="| A123456 |" classname="| A123456 |" time="0.023"/>
+  <testcase name="Given the form is opened" classname="| A123456789012345 |" time="0"/>
+  <testcase name="When the user enters invalid &quot;A123456789012345&quot; in Password field" classname="| A123456789012345 |" time="0"/>
+  <testcase name="Then the error should appear for Password field" classname="| A123456789012345 |" time="0"/>
+  <testcase name="| A123456789012345 |" classname="| A123456789012345 |" time="0.027"/>
+  <testcase name="Given the form is opened" classname="| A1234567 |" time="0"/>
+  <testcase name="When the user enters valid &quot;A1234567&quot; in Password field" classname="| A1234567 |" time="0"/>
+  <testcase name="Then the error should not appear for Password field" classname="| A1234567 |" time="0"/>
+  <testcase name="| A1234567 |" classname="| A1234567 |" time="0.03"/>
+  <testcase name="Given the form is opened" classname="| A12345678901234 |" time="0"/>
+  <testcase name="When the user enters valid &quot;A12345678901234&quot; in Password field" classname="| A12345678901234 |" time="0"/>
+  <testcase name="Then the error should not appear for Password field" classname="| A12345678901234 |" time="0"/>
+  <testcase name="| A12345678901234 |" classname="| A12345678901234 |" time="0.029"/>
+  <testcase name="Given the form is opened" classname="| A1234567 | A1234bc |" time="0"/>
+  <testcase name="When the user enters valid &quot;A1234567&quot; in Password field" classname="| A1234567 | A1234bc |" time="0"/>
+  <testcase name="And the user enters invalid &quot;A1234bc&quot; in Confirm Password field" classname="| A1234567 | A1234bc |" time="0"/>
+  <testcase name="Then the error should appear for Confirm Password field" classname="| A1234567 | A1234bc |" time="0"/>
+  <testcase name="| A1234567 | A1234bc |" classname="| A1234567 | A1234bc |" time="0.031"/>
+  <testcase name="Given the form is opened" classname="| ABC345678901234 | abc345678901234 |" time="0"/>
+  <testcase name="When the user enters valid &quot;ABC345678901234&quot; in Password field" classname="| ABC345678901234 | abc345678901234 |" time="0"/>
+  <testcase name="And the user enters invalid &quot;abc345678901234&quot; in Confirm Password field" classname="| ABC345678901234 | abc345678901234 |" time="0"/>
+  <testcase name="Then the error should appear for Confirm Password field" classname="| ABC345678901234 | abc345678901234 |" time="0"/>
+  <testcase name="| ABC345678901234 | abc345678901234 |" classname="| ABC345678901234 | abc345678901234 |" time="0.037"/>
+  <testcase name="Given the form is opened" classname="| A1234567 | A1234567 |" time="0"/>
+  <testcase name="When the user enters valid &quot;A1234567&quot; in Password field" classname="| A1234567 | A1234567 |" time="0"/>
+  <testcase name="When the user enters valid &quot;A1234567&quot; in Confirm Password field" classname="| A1234567 | A1234567 |" time="0"/>
+  <testcase name="Then the error should not appear for Confirm Password field" classname="| A1234567 | A1234567 |" time="0"/>
+  <testcase name="| A1234567 | A1234567 |" classname="| A1234567 | A1234567 |" time="0.033"/>
+  <testcase name="Given the form is opened" classname="| A12345678901234 | A12345678901234 |" time="0"/>
+  <testcase name="When the user enters valid &quot;A12345678901234&quot; in Password field" classname="| A12345678901234 | A12345678901234 |" time="0"/>
+  <testcase name="When the user enters valid &quot;A12345678901234&quot; in Confirm Password field" classname="| A12345678901234 | A12345678901234 |" time="0"/>
+  <testcase name="Then the error should not appear for Confirm Password field" classname="| A12345678901234 | A12345678901234 |" time="0"/>
+  <testcase name="| A12345678901234 | A12345678901234 |" classname="| A12345678901234 | A12345678901234 |" time="0.028"/>
+  <testcase name="Given the form is opened" classname="| chess |" time="0"/>
+  <testcase name="When the user enters the &quot;chess&quot; in Hobby field" classname="| chess |" time="0"/>
+  <testcase name="And clicks on the Add button" classname="| chess |" time="0"/>
+  <testcase name="Then the entered &quot;chess&quot; should appear above the Hobby field" classname="| chess |" time="0"/>
+  <testcase name="And the hobby field should disappear from the textbox" classname="| chess |" time="0"/>
+  <testcase name="| chess |" classname="| chess |" time="0.023"/>
+  <testcase name="Given the form is opened" classname="| baseball |" time="0"/>
+  <testcase name="When the user enters the &quot;baseball&quot; in Hobby field" classname="| baseball |" time="0"/>
+  <testcase name="And clicks on the Add button" classname="| baseball |" time="0"/>
+  <testcase name="Then the entered &quot;baseball&quot; should appear above the Hobby field" classname="| baseball |" time="0"/>
+  <testcase name="And the hobby field should disappear from the textbox" classname="| baseball |" time="0"/>
+  <testcase name="| baseball |" classname="| baseball |" time="0.024"/>
+  <testcase name="Given the form is opened" classname="| watching tv |" time="0"/>
+  <testcase name="When the user enters the &quot;watching tv&quot; in Hobby field" classname="| watching tv |" time="0"/>
+  <testcase name="And clicks on the Add button" classname="| watching tv |" time="0"/>
+  <testcase name="Then the entered &quot;watching tv&quot; should appear above the Hobby field" classname="| watching tv |" time="0"/>
+  <testcase name="And the hobby field should disappear from the textbox" classname="| watching tv |" time="0"/>
+  <testcase name="| watching tv |" classname="| watching tv |" time="0.024"/>
+  <testcase name="Given the form is opened" classname="| Jenny Jackson | 19 | A1234567 | chess |" time="0"/>
+  <testcase name="When the user enters valid &quot;Jenny Jackson&quot; in Name field" classname="| Jenny Jackson | 19 | A1234567 | chess |" time="0"/>
+  <testcase name="Then the error should not appear for Name field" classname="| Jenny Jackson | 19 | A1234567 | chess |" time="0"/>
+  <testcase name="Then the user enters valid &quot;19&quot; in Age field" classname="| Jenny Jackson | 19 | A1234567 | chess |" time="0"/>
+  <testcase name="Then the error should not appear for Age field" classname="| Jenny Jackson | 19 | A1234567 | chess |" time="0"/>
+  <testcase name="Then the user enters valid &quot;A1234567&quot; in Password field" classname="| Jenny Jackson | 19 | A1234567 | chess |" time="0"/>
+  <testcase name="Then the error should not appear for Password field" classname="| Jenny Jackson | 19 | A1234567 | chess |" time="0"/>
+  <testcase name="Then the user enters valid &quot;A1234567&quot; in Confirm Password field" classname="| Jenny Jackson | 19 | A1234567 | chess |" time="0"/>
+  <testcase name="Then the error should not appear for Confirm Password field" classname="| Jenny Jackson | 19 | A1234567 | chess |" time="0"/>
+  <testcase name="Then the user enters the &quot;chess&quot; in Hobby field" classname="| Jenny Jackson | 19 | A1234567 | chess |" time="0"/>
+  <testcase name="And clicks on the Add button" classname="| Jenny Jackson | 19 | A1234567 | chess |" time="0"/>
+  <testcase name="Then the entered &quot;chess&quot; should appear above the Hobby field" classname="| Jenny Jackson | 19 | A1234567 | chess |" time="0"/>
+  <testcase name="And the hobby field should disappear from the textbox" classname="| Jenny Jackson | 19 | A1234567 | chess |" time="0"/>
+  <testcase name="| Jenny Jackson | 19 | A1234567 | chess |" classname="| Jenny Jackson | 19 | A1234567 | chess |" time="0.022"/>
 </testsuite>

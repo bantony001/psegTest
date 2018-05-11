@@ -1,2 +1,2 @@
-stepDefinition\SmokeTest.class
 runner\TestRunner.class
+stepDefinition\FormValidationTest.class

@@ -1,13 +1,246 @@
-Feature: Test PSEG login
+Feature: To Test the Name Field
 
-  Scenario Outline: Test Login with valid credentials [90m# pseg.feature:3[0m
-    [36mGiven [0m[36mthe user is in pseg application[0m
-    [36mWhen [0m[36mthe user enters login information[0m
-    [36mThen [0m[36mthe user should be logged in[0m
+  @test
+  Scenario Outline: Verify the name field with invalid values [90m# Script1_VerifyNameField.feature:4[0m
+    [36mGiven [0m[36mthe form is opened[0m
+    [36mWhen [0m[36mthe user enters invalid "<values>" in Name field[0m
+    [36mThen [0m[36mthe error should appear for Name field[0m
 
     Examples: 
 
-  Scenario Outline: Test Login with valid credentials [90m# pseg.feature:11[0m
-    [32mGiven [0m[32mthe user is in pseg application[0m             [90m# SmokeTest.the_user_is_in_pseg_application()[0m
-    [32mWhen [0m[32mthe user enters login information[0m            [90m# SmokeTest.the_user_enters_login_information()[0m
-    [32mThen [0m[32mthe user should be logged in[0m                 [90m# SmokeTest.the_user_should_be_logged_in()[0m
+  @test
+  Scenario Outline: Verify the name field with invalid values [90m# Script1_VerifyNameField.feature:11[0m
+    [32mGiven [0m[32mthe form is opened[0m                                  [90m# FormValidationTest.the_form_is_opened()[0m
+    [32mWhen [0m[32mthe user enters invalid "[0m[32m[1m[0m[32m" in Name field[0m             [90m# FormValidationTest.the_user_enters_invalid_in_Name_field(String)[0m
+    [32mThen [0m[32mthe error should appear for Name field[0m               [90m# FormValidationTest.the_error_should_appear_for_Name_field()[0m
+
+  @test
+  Scenario Outline: Verify the name field with invalid values                     [90m# Script1_VerifyNameField.feature:12[0m
+    [32mGiven [0m[32mthe form is opened[0m                                                      [90m# FormValidationTest.the_form_is_opened()[0m
+    [32mWhen [0m[32mthe user enters invalid "[0m[32m[1mThis is an invalid value to test[0m[32m" in Name field[0m [90m# FormValidationTest.the_user_enters_invalid_in_Name_field(String)[0m
+    [32mThen [0m[32mthe error should appear for Name field[0m                                   [90m# FormValidationTest.the_error_should_appear_for_Name_field()[0m
+
+  @test
+  Scenario Outline: Verify the name field with invalid values [90m# Script1_VerifyNameField.feature:15[0m
+    [36mGiven [0m[36mthe form is opened[0m
+    [36mWhen [0m[36mthe user enters valid "<values>" in Name field[0m
+    [36mThen [0m[36mthe error should not appear for Name field[0m
+
+    Examples: 
+
+  @test
+  Scenario Outline: Verify the name field with invalid values [90m# Script1_VerifyNameField.feature:22[0m
+    [32mGiven [0m[32mthe form is opened[0m                                  [90m# FormValidationTest.the_form_is_opened()[0m
+    [32mWhen [0m[32mthe user enters valid "[0m[32m[1mJenny[0m[32m" in Name field[0m          [90m# FormValidationTest.the_user_enters_valid_in_Name_field(String)[0m
+    [32mThen [0m[32mthe error should not appear for Name field[0m           [90m# FormValidationTest.the_error_should_not_appear_for_Name_field()[0m
+
+  @test
+  Scenario Outline: Verify the name field with invalid values   [90m# Script1_VerifyNameField.feature:23[0m
+    [32mGiven [0m[32mthe form is opened[0m                                    [90m# FormValidationTest.the_form_is_opened()[0m
+    [32mWhen [0m[32mthe user enters valid "[0m[32m[1mJunior M. Mathew[0m[32m" in Name field[0m [90m# FormValidationTest.the_user_enters_valid_in_Name_field(String)[0m
+    [32mThen [0m[32mthe error should not appear for Name field[0m             [90m# FormValidationTest.the_error_should_not_appear_for_Name_field()[0m
+Feature: To Test the Name Field
+
+  @test
+  Scenario Outline: Verify the age field with invalid values [90m# Script2_Verify_Age_Field.feature:4[0m
+    [36mGiven [0m[36mthe form is opened[0m
+    [36mWhen [0m[36mthe user enters invalid "<values>" in Age field[0m
+    [36mThen [0m[36mthe error should appear for Age field[0m
+
+    Examples: 
+
+  @test
+  Scenario Outline: Verify the age field with invalid values [90m# Script2_Verify_Age_Field.feature:11[0m
+    [32mGiven [0m[32mthe form is opened[0m                                 [90m# FormValidationTest.the_form_is_opened()[0m
+    [32mWhen [0m[32mthe user enters invalid "[0m[32m[1m[0m[32m" in Age field[0m             [90m# FormValidationTest.the_user_enters_invalid_in_Age_field(String)[0m
+    [32mThen [0m[32mthe error should appear for Age field[0m               [90m# FormValidationTest.the_error_should_appear_for_Age_field()[0m
+
+  @test
+  Scenario Outline: Verify the age field with invalid values [90m# Script2_Verify_Age_Field.feature:12[0m
+    [32mGiven [0m[32mthe form is opened[0m                                 [90m# FormValidationTest.the_form_is_opened()[0m
+    [32mWhen [0m[32mthe user enters invalid "[0m[32m[1m17[0m[32m" in Age field[0m           [90m# FormValidationTest.the_user_enters_invalid_in_Age_field(String)[0m
+    [32mThen [0m[32mthe error should appear for Age field[0m               [90m# FormValidationTest.the_error_should_appear_for_Age_field()[0m
+
+  @test
+  Scenario Outline: Verify the age field with valid values [90m# Script2_Verify_Age_Field.feature:15[0m
+    [36mGiven [0m[36mthe form is opened[0m
+    [36mWhen [0m[36mthe user enters valid "<values>" in Age field[0m
+    [36mThen [0m[36mthe error should not appear for Age field[0m
+
+    Examples: 
+
+  @test
+  Scenario Outline: Verify the age field with valid values [90m# Script2_Verify_Age_Field.feature:22[0m
+    [32mGiven [0m[32mthe form is opened[0m                               [90m# FormValidationTest.the_form_is_opened()[0m
+    [32mWhen [0m[32mthe user enters valid "[0m[32m[1m18[0m[32m" in Age field[0m           [90m# FormValidationTest.the_user_enters_valid_in_Age_field(String)[0m
+    [32mThen [0m[32mthe error should not appear for Age field[0m         [90m# FormValidationTest.the_error_should_not_appear_for_Age_field()[0m
+
+  @test
+  Scenario Outline: Verify the age field with valid values [90m# Script2_Verify_Age_Field.feature:23[0m
+    [32mGiven [0m[32mthe form is opened[0m                               [90m# FormValidationTest.the_form_is_opened()[0m
+    [32mWhen [0m[32mthe user enters valid "[0m[32m[1m101[0m[32m" in Age field[0m          [90m# FormValidationTest.the_user_enters_valid_in_Age_field(String)[0m
+    [32mThen [0m[32mthe error should not appear for Age field[0m         [90m# FormValidationTest.the_error_should_not_appear_for_Age_field()[0m
+Feature: To Test the Name Field
+
+  @test
+  Scenario Outline: Verify the password field with invalid values [90m# Script3_Verify_Password_Field.feature:4[0m
+    [36mGiven [0m[36mthe form is opened[0m
+    [36mWhen [0m[36mthe user enters invalid "<values>" in Password field[0m
+    [36mThen [0m[36mthe error should appear for Password field[0m
+
+    Examples: 
+
+  @test
+  Scenario Outline: Verify the password field with invalid values [90m# Script3_Verify_Password_Field.feature:11[0m
+    [32mGiven [0m[32mthe form is opened[0m                                      [90m# FormValidationTest.the_form_is_opened()[0m
+    [32mWhen [0m[32mthe user enters invalid "[0m[32m[1m[0m[32m" in Password field[0m             [90m# FormValidationTest.the_user_enters_invalid_in_Password_field(String)[0m
+    [32mThen [0m[32mthe error should appear for Password field[0m               [90m# FormValidationTest.the_error_should_appear_for_Password_field()[0m
+
+  @test
+  Scenario Outline: Verify the password field with invalid values [90m# Script3_Verify_Password_Field.feature:12[0m
+    [32mGiven [0m[32mthe form is opened[0m                                      [90m# FormValidationTest.the_form_is_opened()[0m
+    [32mWhen [0m[32mthe user enters invalid "[0m[32m[1mA123456[0m[32m" in Password field[0m      [90m# FormValidationTest.the_user_enters_invalid_in_Password_field(String)[0m
+    [32mThen [0m[32mthe error should appear for Password field[0m               [90m# FormValidationTest.the_error_should_appear_for_Password_field()[0m
+
+  @test
+  Scenario Outline: Verify the password field with invalid values     [90m# Script3_Verify_Password_Field.feature:13[0m
+    [32mGiven [0m[32mthe form is opened[0m                                          [90m# FormValidationTest.the_form_is_opened()[0m
+    [32mWhen [0m[32mthe user enters invalid "[0m[32m[1mA123456789012345[0m[32m" in Password field[0m [90m# FormValidationTest.the_user_enters_invalid_in_Password_field(String)[0m
+    [32mThen [0m[32mthe error should appear for Password field[0m                   [90m# FormValidationTest.the_error_should_appear_for_Password_field()[0m
+
+  @test
+  Scenario Outline: Verify the password field with valid values [90m# Script3_Verify_Password_Field.feature:16[0m
+    [36mGiven [0m[36mthe form is opened[0m
+    [36mWhen [0m[36mthe user enters valid "<values>" in Password field[0m
+    [36mThen [0m[36mthe error should not appear for Password field[0m
+
+    Examples: 
+
+  @test
+  Scenario Outline: Verify the password field with valid values [90m# Script3_Verify_Password_Field.feature:23[0m
+    [32mGiven [0m[32mthe form is opened[0m                                    [90m# FormValidationTest.the_form_is_opened()[0m
+    [32mWhen [0m[32mthe user enters valid "[0m[32m[1mA1234567[0m[32m" in Password field[0m     [90m# FormValidationTest.the_user_enters_valid_in_Password_field(String)[0m
+    [32mThen [0m[32mthe error should not appear for Password field[0m         [90m# FormValidationTest.the_error_should_not_appear_for_Password_field()[0m
+
+  @test
+  Scenario Outline: Verify the password field with valid values    [90m# Script3_Verify_Password_Field.feature:24[0m
+    [32mGiven [0m[32mthe form is opened[0m                                       [90m# FormValidationTest.the_form_is_opened()[0m
+    [32mWhen [0m[32mthe user enters valid "[0m[32m[1mA12345678901234[0m[32m" in Password field[0m [90m# FormValidationTest.the_user_enters_valid_in_Password_field(String)[0m
+    [32mThen [0m[32mthe error should not appear for Password field[0m            [90m# FormValidationTest.the_error_should_not_appear_for_Password_field()[0m
+Feature: To Test the Name Field
+
+  @test
+  Scenario Outline: Verify the password and confirm password field with invalid values [90m# Script4_Verify_Password_And_Confirm_Password_Field.feature:4[0m
+    [36mGiven [0m[36mthe form is opened[0m
+    [36mWhen [0m[36mthe user enters valid "<value1>" in Password field[0m
+    [36mAnd [0m[36mthe user enters invalid "<value2>" in Confirm Password field[0m
+    [36mThen [0m[36mthe error should appear for Confirm Password field[0m
+
+    Examples: 
+
+  @test
+  Scenario Outline: Verify the password and confirm password field with invalid values [90m# Script4_Verify_Password_And_Confirm_Password_Field.feature:12[0m
+    [32mGiven [0m[32mthe form is opened[0m                                                           [90m# FormValidationTest.the_form_is_opened()[0m
+    [32mWhen [0m[32mthe user enters valid "[0m[32m[1mA1234567[0m[32m" in Password field[0m                            [90m# FormValidationTest.the_user_enters_valid_in_Password_field(String)[0m
+    [32mAnd [0m[32mthe user enters invalid "[0m[32m[1mA1234bc[0m[32m" in Confirm Password field[0m                    [90m# FormValidationTest.the_user_enters_invalid_in_Confirm_Password_field(String)[0m
+    [32mThen [0m[32mthe error should appear for Confirm Password field[0m                            [90m# FormValidationTest.the_error_should_appear_for_Confirm_Password_field()[0m
+
+  @test
+  Scenario Outline: Verify the password and confirm password field with invalid values [90m# Script4_Verify_Password_And_Confirm_Password_Field.feature:13[0m
+    [32mGiven [0m[32mthe form is opened[0m                                                           [90m# FormValidationTest.the_form_is_opened()[0m
+    [32mWhen [0m[32mthe user enters valid "[0m[32m[1mABC345678901234[0m[32m" in Password field[0m                     [90m# FormValidationTest.the_user_enters_valid_in_Password_field(String)[0m
+    [32mAnd [0m[32mthe user enters invalid "[0m[32m[1mabc345678901234[0m[32m" in Confirm Password field[0m            [90m# FormValidationTest.the_user_enters_invalid_in_Confirm_Password_field(String)[0m
+    [32mThen [0m[32mthe error should appear for Confirm Password field[0m                            [90m# FormValidationTest.the_error_should_appear_for_Confirm_Password_field()[0m
+
+  @test
+  Scenario Outline: Verify the password and confirm password field with valid values [90m# Script4_Verify_Password_And_Confirm_Password_Field.feature:16[0m
+    [36mGiven [0m[36mthe form is opened[0m
+    [36mWhen [0m[36mthe user enters valid "<value1>" in Password field[0m
+    [36mWhen [0m[36mthe user enters valid "<value2>" in Confirm Password field[0m
+    [36mThen [0m[36mthe error should not appear for Confirm Password field[0m
+
+    Examples: 
+
+  @test
+  Scenario Outline: Verify the password and confirm password field with valid values [90m# Script4_Verify_Password_And_Confirm_Password_Field.feature:24[0m
+    [32mGiven [0m[32mthe form is opened[0m                                                         [90m# FormValidationTest.the_form_is_opened()[0m
+    [32mWhen [0m[32mthe user enters valid "[0m[32m[1mA1234567[0m[32m" in Password field[0m                          [90m# FormValidationTest.the_user_enters_valid_in_Password_field(String)[0m
+    [32mWhen [0m[32mthe user enters valid "[0m[32m[1mA1234567[0m[32m" in Confirm Password field[0m                  [90m# FormValidationTest.the_user_enters_valid_in_Confirm_Password_field(String)[0m
+    [32mThen [0m[32mthe error should not appear for Confirm Password field[0m                      [90m# FormValidationTest.the_error_should_not_appear_for_Confirm_Password_field()[0m
+
+  @test
+  Scenario Outline: Verify the password and confirm password field with valid values [90m# Script4_Verify_Password_And_Confirm_Password_Field.feature:25[0m
+    [32mGiven [0m[32mthe form is opened[0m                                                         [90m# FormValidationTest.the_form_is_opened()[0m
+    [32mWhen [0m[32mthe user enters valid "[0m[32m[1mA12345678901234[0m[32m" in Password field[0m                   [90m# FormValidationTest.the_user_enters_valid_in_Password_field(String)[0m
+    [32mWhen [0m[32mthe user enters valid "[0m[32m[1mA12345678901234[0m[32m" in Confirm Password field[0m           [90m# FormValidationTest.the_user_enters_valid_in_Confirm_Password_field(String)[0m
+    [32mThen [0m[32mthe error should not appear for Confirm Password field[0m                      [90m# FormValidationTest.the_error_should_not_appear_for_Confirm_Password_field()[0m
+Feature: To Test the Name Field
+
+  @test
+  Scenario Outline: Verify the hobby field with invalid values      [90m# Script5_Verify_Hobby_Field.feature:4[0m
+    [36mGiven [0m[36mthe form is opened[0m
+    [36mWhen [0m[36mthe user enters the "<values>" in Hobby field[0m
+    [36mAnd [0m[36mclicks on the Add button[0m
+    [36mThen [0m[36mthe entered "<values>" should appear above the Hobby field[0m
+    [36mAnd [0m[36mthe hobby field should disappear from the textbox[0m
+
+    Examples: 
+
+  @test
+  Scenario Outline: Verify the hobby field with invalid values   [90m# Script5_Verify_Hobby_Field.feature:13[0m
+    [32mGiven [0m[32mthe form is opened[0m                                     [90m# FormValidationTest.the_form_is_opened()[0m
+    [32mWhen [0m[32mthe user enters the "[0m[32m[1mchess[0m[32m" in Hobby field[0m              [90m# FormValidationTest.the_user_enters_the_in_Hobby_field(String)[0m
+    [32mAnd [0m[32mclicks on the Add button[0m                                 [90m# FormValidationTest.clicks_on_the_Add_button()[0m
+    [32mThen [0m[32mthe entered "[0m[32m[1mchess[0m[32m" should appear above the Hobby field[0m [90m# FormValidationTest.the_entered_should_appear_above_the_Hobby_field(String)[0m
+    [32mAnd [0m[32mthe hobby field should disappear from the textbox[0m        [90m# FormValidationTest.the_hobby_field_should_disappear_from_the_textbox()[0m
+
+  @test
+  Scenario Outline: Verify the hobby field with invalid values      [90m# Script5_Verify_Hobby_Field.feature:14[0m
+    [32mGiven [0m[32mthe form is opened[0m                                        [90m# FormValidationTest.the_form_is_opened()[0m
+    [32mWhen [0m[32mthe user enters the "[0m[32m[1mbaseball[0m[32m" in Hobby field[0m              [90m# FormValidationTest.the_user_enters_the_in_Hobby_field(String)[0m
+    [32mAnd [0m[32mclicks on the Add button[0m                                    [90m# FormValidationTest.clicks_on_the_Add_button()[0m
+    [32mThen [0m[32mthe entered "[0m[32m[1mbaseball[0m[32m" should appear above the Hobby field[0m [90m# FormValidationTest.the_entered_should_appear_above_the_Hobby_field(String)[0m
+    [32mAnd [0m[32mthe hobby field should disappear from the textbox[0m           [90m# FormValidationTest.the_hobby_field_should_disappear_from_the_textbox()[0m
+
+  @test
+  Scenario Outline: Verify the hobby field with invalid values         [90m# Script5_Verify_Hobby_Field.feature:15[0m
+    [32mGiven [0m[32mthe form is opened[0m                                           [90m# FormValidationTest.the_form_is_opened()[0m
+    [32mWhen [0m[32mthe user enters the "[0m[32m[1mwatching tv[0m[32m" in Hobby field[0m              [90m# FormValidationTest.the_user_enters_the_in_Hobby_field(String)[0m
+    [32mAnd [0m[32mclicks on the Add button[0m                                       [90m# FormValidationTest.clicks_on_the_Add_button()[0m
+    [32mThen [0m[32mthe entered "[0m[32m[1mwatching tv[0m[32m" should appear above the Hobby field[0m [90m# FormValidationTest.the_entered_should_appear_above_the_Hobby_field(String)[0m
+    [32mAnd [0m[32mthe hobby field should disappear from the textbox[0m              [90m# FormValidationTest.the_hobby_field_should_disappear_from_the_textbox()[0m
+Feature: To verify the form
+
+  @test
+  Scenario Outline: Verify the name field with invalid values         [90m# Script6_EndToEndFlowVerification.feature:4[0m
+    [36mGiven [0m[36mthe form is opened[0m
+    [36mWhen [0m[36mthe user enters valid "<names>" in Name field[0m
+    [36mThen [0m[36mthe error should not appear for Name field[0m
+    [36mThen [0m[36mthe user enters valid "<ages>" in Age field[0m
+    [36mThen [0m[36mthe error should not appear for Age field[0m
+    [36mThen [0m[36mthe user enters valid "<password>" in Password field[0m
+    [36mThen [0m[36mthe error should not appear for Password field[0m
+    [36mThen [0m[36mthe user enters valid "<password>" in Confirm Password field[0m
+    [36mThen [0m[36mthe error should not appear for Confirm Password field[0m
+    [36mThen [0m[36mthe user enters the "<hobby>" in Hobby field[0m
+    [36mAnd [0m[36mclicks on the Add button[0m
+    [36mThen [0m[36mthe entered "<hobby>" should appear above the Hobby field[0m
+    [36mAnd [0m[36mthe hobby field should disappear from the textbox[0m
+
+    Examples: 
+
+  @test
+  Scenario Outline: Verify the name field with invalid values       [90m# Script6_EndToEndFlowVerification.feature:21[0m
+    [32mGiven [0m[32mthe form is opened[0m                                        [90m# FormValidationTest.the_form_is_opened()[0m
+    [32mWhen [0m[32mthe user enters valid "[0m[32m[1mJenny Jackson[0m[32m" in Name field[0m        [90m# FormValidationTest.the_user_enters_valid_in_Name_field(String)[0m
+    [32mThen [0m[32mthe error should not appear for Name field[0m                 [90m# FormValidationTest.the_error_should_not_appear_for_Name_field()[0m
+    [32mThen [0m[32mthe user enters valid "[0m[32m[1m19[0m[32m" in Age field[0m                    [90m# FormValidationTest.the_user_enters_valid_in_Age_field(String)[0m
+    [32mThen [0m[32mthe error should not appear for Age field[0m                  [90m# FormValidationTest.the_error_should_not_appear_for_Age_field()[0m
+    [32mThen [0m[32mthe user enters valid "[0m[32m[1mA1234567[0m[32m" in Password field[0m         [90m# FormValidationTest.the_user_enters_valid_in_Password_field(String)[0m
+    [32mThen [0m[32mthe error should not appear for Password field[0m             [90m# FormValidationTest.the_error_should_not_appear_for_Password_field()[0m
+    [32mThen [0m[32mthe user enters valid "[0m[32m[1mA1234567[0m[32m" in Confirm Password field[0m [90m# FormValidationTest.the_user_enters_valid_in_Confirm_Password_field(String)[0m
+    [32mThen [0m[32mthe error should not appear for Confirm Password field[0m     [90m# FormValidationTest.the_error_should_not_appear_for_Confirm_Password_field()[0m
+    [32mThen [0m[32mthe user enters the "[0m[32m[1mchess[0m[32m" in Hobby field[0m                 [90m# FormValidationTest.the_user_enters_the_in_Hobby_field(String)[0m
+    [32mAnd [0m[32mclicks on the Add button[0m                                    [90m# FormValidationTest.clicks_on_the_Add_button()[0m
+    [32mThen [0m[32mthe entered "[0m[32m[1mchess[0m[32m" should appear above the Hobby field[0m    [90m# FormValidationTest.the_entered_should_appear_above_the_Hobby_field(String)[0m
+    [32mAnd [0m[32mthe hobby field should disappear from the textbox[0m           [90m# FormValidationTest.the_hobby_field_should_disappear_from_the_textbox()[0m

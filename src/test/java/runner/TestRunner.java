@@ -14,7 +14,8 @@ import cucumber.api.junit.Cucumber;
 				  "pretty:target/cucumber-pretty.txt",
 				  "usage:target/cucumber-usage.json",
 				  "junit:target/cucumber-results.xml"
-				  }
+				  },
+		tags = {"@test"}
 		)
 /**
  * Unit test for simple App.

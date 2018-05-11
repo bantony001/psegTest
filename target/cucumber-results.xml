@@ -1,9 +1,149 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="12.226911">
-<testcase classname="Test PSEG login" name="Test Login with valid credentials" time="12.226911">
-<system-out><![CDATA[Given the user is in pseg application.......................................passed
-When the user enters login information......................................passed
-Then the user should be logged in...........................................passed
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="21" time="306.774174">
+<testcase classname="To Test the Name Field" name="Verify the name field with invalid values" time="12.388462">
+<system-out><![CDATA[Given the form is opened....................................................passed
+When the user enters invalid "" in Name field...............................passed
+Then the error should appear for Name field.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To Test the Name Field" name="Verify the name field with invalid values 2" time="11.460495">
+<system-out><![CDATA[Given the form is opened....................................................passed
+When the user enters invalid "This is an invalid value to test" in Name field.passed
+Then the error should appear for Name field.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To Test the Name Field" name="Verify the name field with invalid values 3" time="11.324564">
+<system-out><![CDATA[Given the form is opened....................................................passed
+When the user enters valid "Jenny" in Name field............................passed
+Then the error should not appear for Name field.............................passed
+]]></system-out>
+</testcase>
+<testcase classname="To Test the Name Field" name="Verify the name field with invalid values 4" time="13.251309">
+<system-out><![CDATA[Given the form is opened....................................................passed
+When the user enters valid "Junior M. Mathew" in Name field.................passed
+Then the error should not appear for Name field.............................passed
+]]></system-out>
+</testcase>
+<testcase classname="To Test the Name Field" name="Verify the age field with invalid values" time="11.235605">
+<system-out><![CDATA[Given the form is opened....................................................passed
+When the user enters invalid "" in Age field................................passed
+Then the error should appear for Age field..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To Test the Name Field" name="Verify the age field with invalid values 2" time="11.300388">
+<system-out><![CDATA[Given the form is opened....................................................passed
+When the user enters invalid "17" in Age field..............................passed
+Then the error should appear for Age field..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To Test the Name Field" name="Verify the age field with valid values" time="11.365087">
+<system-out><![CDATA[Given the form is opened....................................................passed
+When the user enters valid "18" in Age field................................passed
+Then the error should not appear for Age field..............................passed
+]]></system-out>
+</testcase>
+<testcase classname="To Test the Name Field" name="Verify the age field with valid values 2" time="11.353934">
+<system-out><![CDATA[Given the form is opened....................................................passed
+When the user enters valid "101" in Age field...............................passed
+Then the error should not appear for Age field..............................passed
+]]></system-out>
+</testcase>
+<testcase classname="To Test the Name Field" name="Verify the password field with invalid values" time="11.277921">
+<system-out><![CDATA[Given the form is opened....................................................passed
+When the user enters invalid "" in Password field...........................passed
+Then the error should appear for Password field.............................passed
+]]></system-out>
+</testcase>
+<testcase classname="To Test the Name Field" name="Verify the password field with invalid values 2" time="11.304671">
+<system-out><![CDATA[Given the form is opened....................................................passed
+When the user enters invalid "A123456" in Password field....................passed
+Then the error should appear for Password field.............................passed
+]]></system-out>
+</testcase>
+<testcase classname="To Test the Name Field" name="Verify the password field with invalid values 3" time="11.564089">
+<system-out><![CDATA[Given the form is opened....................................................passed
+When the user enters invalid "A123456789012345" in Password field...........passed
+Then the error should appear for Password field.............................passed
+]]></system-out>
+</testcase>
+<testcase classname="To Test the Name Field" name="Verify the password field with valid values" time="11.302498">
+<system-out><![CDATA[Given the form is opened....................................................passed
+When the user enters valid "A1234567" in Password field.....................passed
+Then the error should not appear for Password field.........................passed
+]]></system-out>
+</testcase>
+<testcase classname="To Test the Name Field" name="Verify the password field with valid values 2" time="11.368285">
+<system-out><![CDATA[Given the form is opened....................................................passed
+When the user enters valid "A12345678901234" in Password field..............passed
+Then the error should not appear for Password field.........................passed
+]]></system-out>
+</testcase>
+<testcase classname="To Test the Name Field" name="Verify the password and confirm password field with invalid values" time="20.609501">
+<system-out><![CDATA[Given the form is opened....................................................passed
+When the user enters valid "A1234567" in Password field.....................passed
+And the user enters invalid "A1234bc" in Confirm Password field.............passed
+Then the error should appear for Confirm Password field.....................passed
+]]></system-out>
+</testcase>
+<testcase classname="To Test the Name Field" name="Verify the password and confirm password field with invalid values 2" time="20.581494">
+<system-out><![CDATA[Given the form is opened....................................................passed
+When the user enters valid "ABC345678901234" in Password field..............passed
+And the user enters invalid "abc345678901234" in Confirm Password field.....passed
+Then the error should appear for Confirm Password field.....................passed
+]]></system-out>
+</testcase>
+<testcase classname="To Test the Name Field" name="Verify the password and confirm password field with valid values" time="20.521043">
+<system-out><![CDATA[Given the form is opened....................................................passed
+When the user enters valid "A1234567" in Password field.....................passed
+When the user enters valid "A1234567" in Confirm Password field.............passed
+Then the error should not appear for Confirm Password field.................passed
+]]></system-out>
+</testcase>
+<testcase classname="To Test the Name Field" name="Verify the password and confirm password field with valid values 2" time="20.59591">
+<system-out><![CDATA[Given the form is opened....................................................passed
+When the user enters valid "A12345678901234" in Password field..............passed
+When the user enters valid "A12345678901234" in Confirm Password field......passed
+Then the error should not appear for Confirm Password field.................passed
+]]></system-out>
+</testcase>
+<testcase classname="To Test the Name Field" name="Verify the hobby field with invalid values" time="11.409024">
+<system-out><![CDATA[Given the form is opened....................................................passed
+When the user enters the "chess" in Hobby field.............................passed
+And clicks on the Add button................................................passed
+Then the entered "chess" should appear above the Hobby field................passed
+And the hobby field should disappear from the textbox.......................passed
+]]></system-out>
+</testcase>
+<testcase classname="To Test the Name Field" name="Verify the hobby field with invalid values 2" time="11.515333">
+<system-out><![CDATA[Given the form is opened....................................................passed
+When the user enters the "baseball" in Hobby field..........................passed
+And clicks on the Add button................................................passed
+Then the entered "baseball" should appear above the Hobby field.............passed
+And the hobby field should disappear from the textbox.......................passed
+]]></system-out>
+</testcase>
+<testcase classname="To Test the Name Field" name="Verify the hobby field with invalid values 3" time="11.532993">
+<system-out><![CDATA[Given the form is opened....................................................passed
+When the user enters the "watching tv" in Hobby field.......................passed
+And clicks on the Add button................................................passed
+Then the entered "watching tv" should appear above the Hobby field..........passed
+And the hobby field should disappear from the textbox.......................passed
+]]></system-out>
+</testcase>
+<testcase classname="To verify the form" name="Verify the name field with invalid values" time="39.511568">
+<system-out><![CDATA[Given the form is opened....................................................passed
+When the user enters valid "Jenny Jackson" in Name field....................passed
+Then the error should not appear for Name field.............................passed
+Then the user enters valid "19" in Age field................................passed
+Then the error should not appear for Age field..............................passed
+Then the user enters valid "A1234567" in Password field.....................passed
+Then the error should not appear for Password field.........................passed
+Then the user enters valid "A1234567" in Confirm Password field.............passed
+Then the error should not appear for Confirm Password field.................passed
+Then the user enters the "chess" in Hobby field.............................passed
+And clicks on the Add button................................................passed
+Then the entered "chess" should appear above the Hobby field................passed
+And the hobby field should disappear from the textbox.......................passed
 ]]></system-out>
 </testcase>
 </testsuite>
